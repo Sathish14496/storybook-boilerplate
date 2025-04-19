@@ -1,6 +1,6 @@
-# Design System
+# Storybook Boilerplate
 
-A modern, accessible, and reusable component library built with React and Storybook.
+A modern, accessible, and reusable component library boilerplate built with React and Storybook. This project serves as a starting point for creating your own design system.
 
 ## Features
 
@@ -8,15 +8,20 @@ A modern, accessible, and reusable component library built with React and Storyb
 - 📚 Comprehensive documentation with Storybook
 - 🧪 Tested components with Jest and React Testing Library
 - 🚀 Built with Vite for fast development and production builds
-- 📦 Published to GitLab Package Registry for easy consumption
+- 🔧 Pre-configured with ESLint, Prettier, and Husky for code quality
+- 📦 Ready to be published as a package
 
 ## Getting Started
 
 ### Installation
 
 ```bash
-# Install the package from GitLab
-npm install @your-org/design-system
+# Clone the repository
+git clone https://github.com/Sathish14496/storybook-boilerplate.git
+
+# Install dependencies
+cd storybook-boilerplate
+npm install
 ```
 
 ### Usage
@@ -68,18 +73,19 @@ function App() {
    ```bash
    npm run build
    ```
-3. Publish to GitLab:
+3. Publish to npm:
    ```bash
    npm publish
    ```
 
 ## Contributing
 
-1. Create a new branch for your feature
-2. Make your changes
-3. Add tests for your changes
-4. Update documentation
-5. Submit a merge request
+1. Fork the repository
+2. Create a new branch for your feature
+3. Make your changes
+4. Add tests for your changes
+5. Update documentation
+6. Submit a pull request
 
 ## License
 
