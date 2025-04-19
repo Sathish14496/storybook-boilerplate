@@ -1,0 +1,60 @@
+.button {
+  font-family: var(--font-family);
+  font-weight: 600;
+  border: 0;
+  border-radius: var(--border-radius-md);
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  transition: all 0.2s ease;
+}
+
+.button--primary {
+  color: white;
+  background-color: var(--primary-color);
+}
+
+.button--secondary {
+  color: white;
+  background-color: var(--secondary-color);
+}
+
+.button--success {
+  color: white;
+  background-color: var(--success-color);
+}
+
+.button--warning {
+  color: white;
+  background-color: var(--warning-color);
+}
+
+.button--error {
+  color: white;
+  background-color: var(--error-color);
+}
+
+.button--small {
+  font-size: 12px;
+  padding: var(--spacing-xs) var(--spacing-sm);
+}
+
+.button--medium {
+  font-size: 14px;
+  padding: var(--spacing-sm) var(--spacing-md);
+}
+
+.button--large {
+  font-size: 16px;
+  padding: var(--spacing-md) var(--spacing-lg);
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.button:not(:disabled):hover {
+  opacity: 0.8;
+  transform: translateY(-1px);
+}

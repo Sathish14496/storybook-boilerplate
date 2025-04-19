@@ -1,0 +1,33 @@
+import { Meta, Story, Controls, Primary } from '@storybook/blocks';
+import * as ButtonStories from './Button.stories';
+
+<Meta of={ButtonStories} />
+
+# Button
+
+A button component that supports different variants, sizes, and states.
+
+## Usage
+
+```tsx
+import { Button } from '@your-org/design-system';
+
+function App() {
+  return (
+    <Button
+      label="Click me"
+      variant="primary"
+      size="medium"
+      onClick={() => console.log('Clicked!')}
+    />
+  );
+}
+```
+
+## Props
+
+<Controls />
+
+## Examples
+
+<Primary /> 
