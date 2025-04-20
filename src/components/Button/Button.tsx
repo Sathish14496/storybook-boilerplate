@@ -1,5 +1,5 @@
 import React from 'react';
-import './Button.css';
+import './Button.scss';
 
 // Test comment for pre-commit hooks
 export interface ButtonProps {
@@ -36,7 +36,7 @@ export const Button = ({
   return (
     <button
       type="button"
-      className={`button button--${variant} button--${size}`}
+      className={`button button--${variant} button--${size} ${disabled ? 'button--disabled' : ''}`}
       disabled={disabled}
       onClick={onClick}
       {...props}
